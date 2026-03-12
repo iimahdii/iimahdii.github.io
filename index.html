@@ -2,437 +2,348 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Seyed Mahdi Mirhoseini Nejad - AI & Deep Learning Engineer | Geo-AI Researcher">
-    <meta name="author" content="Mahdi Mirhoseini">
-    <title>Mahdi Mirhoseini | AI & Deep Learning Researcher</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Meyawo main styles -->
-    <link rel="stylesheet" href="assets/css/meyawo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahdi Mirhoseini | Deep Learning Researcher</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body>
 
-    <!-- Page Navbar -->
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">Mahdi Mirhoseini</a>
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#service">Research</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#publications">Publications</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#contact">Contact</a>
-                </li>
-                <!--
-                <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li>
-                -->
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
+  <!-- Left Sidebar (Navigation & Contact) -->
+  <aside class="sidebar">
+    <div class="profile-container">
+      <!-- Placeholder image. The user should replace this with a real headshot -->
+      <img src="https://via.placeholder.com/180/e0e0e0/333333?text=Photo" alt="Mahdi Mirhoseini" class="profile-pic">
+      <h1 class="profile-name">Mahdi Mirhoseini</h1>
+      <p class="profile-title">Deep Learning Researcher &<br>Algorithm Engineer</p>
+      <p class="profile-location"><i class="fas fa-map-marker-alt"></i> Ontario, Canada</p>
+    </div>
+
+    <!-- Contact Info -->
+    <ul class="contact-links">
+      <li><a href="mailto:mirhoseini.mahdi@gmail.com"><i class="fas fa-envelope"></i>mirhoseini.mahdi@gmail.com</a></li>
+      <li><a href="https://scholar.google.com/citations?user=I46BmaIAAAAJ" target="_blank"><i
+            class="fas fa-graduation-cap"></i>Google Scholar</a></li>
+      <li><a href="https://github.com/iimahdii" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+      <li><a href="https://orcid.org/0000-0002-0454-8626" target="_blank"><i class="fab fa-orcid"></i>ORCID</a></li>
+    </ul>
+
+    <!-- Navigation Menu -->
+    <ul class="nav-menu">
+      <li><a href="#about" class="active">About</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#research">Research & Experience</a></li>
+      <li><a href="#projects">Key Projects</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- About Section -->
+    <section id="about" class="section-content">
+      <h2>About Me</h2>
+      <p>I am a Deep Learning Researcher and Algorithm Engineer with a recently completed Ph.D. in Electrical and
+        Communication Engineering from Shahid Bahonar University. My doctoral work focused primarily on designing novel
+        neural architectures to extract meaningful representations from massive, high-dimensional datasets such as
+        multi-modal Earth Observation data.</p>
+
+      <p>I specialize in building and training custom models from scratch—including <strong>Vision Transformers
+          (ViT)</strong>, <strong>3D-CNNs</strong>, and <strong>ConvLSTMs</strong>—using PyTorch. My research tackles
+        complex problems in spatiotemporal reasoning, cross-modal attention mechanisms, and the processing of
+        heterogeneous data lakes.</p>
+
+      <p>Beyond theoretical modeling, I have extensive professional experience building high-performance C++ and Python
+        pipelines, utilizing Docker, Git, and deploying reproducible deep learning workflows on multi-GPU HPC clusters
+        and cloud infrastructure.</p>
+
+      <div class="tags">
+        <span class="tag">Deep Learning</span>
+        <span class="tag">Vision Transformers</span>
+        <span class="tag">Spatiotemporal Reasoning</span>
+        <span class="tag">PyTorch</span>
+        <span class="tag">C++ / Python</span>
+        <span class="tag">HPC / Multi-GPU</span>
+      </div>
+
+      <!-- Google Scholar Metrics -->
+      <div class="scholar-metrics">
+        <a href="https://scholar.google.com/citations?user=I46BmaIAAAAJ" target="_blank" class="metric-box">
+          <i class="fas fa-quote-right metric-icon"></i>
+          <span class="metric-value">444</span>
+          <span class="metric-label">Citations</span>
+        </a>
+        <a href="https://scholar.google.com/citations?user=I46BmaIAAAAJ" target="_blank" class="metric-box">
+          <i class="fas fa-chart-line metric-icon"></i>
+          <span class="metric-value">4</span>
+          <span class="metric-label">h-index</span>
+        </a>
+        <a href="https://scholar.google.com/citations?user=I46BmaIAAAAJ" target="_blank" class="metric-box">
+          <i class="fas fa-chart-bar metric-icon"></i>
+          <span class="metric-value">4</span>
+          <span class="metric-label">i10-index</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section-content">
+      <h2>Selected Publications</h2>
+      <ul class="pub-list">
+        <li>
+          <div class="pub-title">ConvLSTM–ViT: A deep neural network for crop yield prediction using Earth observations
+            and remotely sensed data</div>
+          <div class="pub-authors"><strong>S. M. Mirhoseini</strong>, D. Abbasi-Moghadam, A. Sharifi.</div>
+          <div class="pub-venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+            (J-STARS), vol. 17, Sep 2024.</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/10684164" target="_blank"><i
+                class="fas fa-external-link-alt"></i> Paper</a>
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:u5y11D4N9Q4C"
+              target="_blank">
+              <img
+                src="https://img.shields.io/badge/Google%20Scholar-View%20Citations-4285F4?logo=googlescholar&logoColor=white"
+                alt="View on Google Scholar">
             </a>
-        </div>
-    </nav><!-- End of Page Navbar -->
-
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am Mahdi Mirhoseini</span>
-            </h1>
-            <p class="header-subtitle">AI & Deep Learning Engineer | Geo-AI Researcher</p>
-
-            <button class="btn btn-primary" onclick="location.href='#publications'">View Publications</button>
-        </div>
-    </header><!-- end of page header -->
-
-    <!-- about section -->
-    <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/man.png" class="about-img" alt="Mahdi Mirhoseini">
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
-                    <p>
-                        I am a Ph.D. researcher and AI Engineer with over 5 years of experience at the Remote Sensing
-                        Laboratory, specializing in the intersection of Deep Learning and Earth Observation. My work
-                        focuses on developing innovative neural network architectures—including Attention Mechanisms,
-                        Transformers (ViT), and 3D-CNNs—to analyze high-dimensional hyperspectral data for precision
-                        agriculture and environmental monitoring.
-                    </p>
-                    <p>
-                        With a strong background in Big Data Engineering and Optimization, I bridge the gap between
-                        theoretical AI foundations and practical, scalable applications. I am proficient in Python,
-                        TensorFlow, Keras, and Azure ML, and I am passionate about leveraging Geo-AI to solve complex
-                        real-world problems.
-                    </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4"
-                        onclick="window.open('https://www.linkedin.com/in/mahdi-mirhoseini/', '_blank')">View
-                        LinkedIn</button>
-                </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
-
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Research Interests & Skills</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/pencil-case.svg" alt="Deep Learning" class="icon">
-                            <h6 class="title">Deep Learning Architectures</h6>
-                            <p class="subtitle">Specialized in designing and optimizing advanced networks like Vision
-                                Transformers (ViT), CNNs, and LSTMs for complex pattern recognition.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/responsive.svg" alt="Geo-AI" class="icon">
-                            <h6 class="title">Geo-AI & Remote Sensing</h6>
-                            <p class="subtitle">Expertise in processing hyperspectral and multispectral imagery for
-                                anomaly detection, crop yield prediction, and land cover classification.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/toolbox.svg" alt="Big Data" class="icon">
-                            <h6 class="title">Big Data & Cloud</h6>
-                            <p class="subtitle">Proficient in leveraging Azure Machine Learning and Big Data engineering
-                                principles to build scalable AI pipelines.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg" alt="Optimization" class="icon">
-                            <h6 class="title">Optimization & Analysis</h6>
-                            <p class="subtitle">Strong background in mathematical optimization, time series analysis,
-                                and predictive modeling for data-driven decision making.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
-        </div>
-    </section><!-- end of service section -->
-
-    <!-- portfolio section -->
-    <section class="section" id="publications">
-        <div class="container text-center">
-            <p class="section-subtitle">My Research</p>
-            <h6 class="section-title mb-6">Selected Publications</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:u5HHmVD_uO8C"
-                        target="_blank" class="portfolio-card">
-                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="Crop Type Classification">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Crop Type Classification by DESIS Hyperspectral Imagery</h5>
-                                    <p class="font-weight-normal">IEEE Journal • 168+ Citations</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:d1gkVwhDpl0C"
-                        target="_blank" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded"
-                            alt="Yield Prediction">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Multi-Spectral Crop Yield Prediction Using 3D-CNNs & Attention</h5>
-                                    <p class="font-weight-normal">IEEE Journal • 117+ Citations</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:u-x6o8ySG0sC"
-                        target="_blank" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
-                            alt="ConvLSTM-ViT">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>ConvLSTM–ViT: Deep Network for Crop Yield Prediction</h5>
-                                    <p class="font-weight-normal">Earth Observations • 85+ Citations</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
-
-    <!-- pricing section -->
-    <!--
-    <section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-
-            </div>
-        </div> 
+          </div>
+        </li>
+        <li>
+          <div class="pub-title">Capsular attention Conv-LSTM network (CACN): A deep learning structure for crop yield
+            estimation based on multispectral imagery</div>
+          <div class="pub-authors"><strong>S. M. Mirhoseini</strong>, D. Abbasi-Moghadam, A. Sharifi.</div>
+          <div class="pub-venue">European Journal of Agronomy, vol. 161, Nov 2024.</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.1016/j.eja.2024.127369" target="_blank"><i class="fas fa-external-link-alt"></i>
+              Paper</a>
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:qjMakFHDy7sC"
+              target="_blank">
+              <img
+                src="https://img.shields.io/badge/Google%20Scholar-View%20Citations-4285F4?logo=googlescholar&logoColor=white"
+                alt="View on Google Scholar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="pub-title">Multi-Spectral Crop Yield Prediction Using 3D-Convolutional Neural Networks and
+            Attention Convolutional LSTM Approaches</div>
+          <div class="pub-authors"><strong>S. M. Mirhoseini</strong>, D. Abbasi-Moghadam, A. Sharifi, et al.</div>
+          <div class="pub-venue">IEEE J-STARS, vol. 16, 2023.</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/9956887" target="_blank"><i
+                class="fas fa-external-link-alt"></i> Paper</a>
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:d1gIgj1sFOEC"
+              target="_blank">
+              <img
+                src="https://img.shields.io/badge/Google%20Scholar-View%20Citations-4285F4?logo=googlescholar&logoColor=white"
+                alt="View on Google Scholar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="pub-title">Crop Type Classification by DESIS Hyperspectral Imagery and Machine Learning Algorithms
+          </div>
+          <div class="pub-authors">N. Farmonov, K. Amankulova, M. László, A. Sharifi, D. Abbasi-Moghadam, <strong>S. M.
+              Mirhoseini</strong>.</div>
+          <div class="pub-venue">IEEE J-STARS, vol. 16, Jan 2023.</div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/10032208" target="_blank"><i
+                class="fas fa-external-link-alt"></i> Paper</a>
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I46BmaIAAAAJ&citation_for_view=I46BmaIAAAAJ:UeHWp8X0CEIC"
+              target="_blank">
+              <img
+                src="https://img.shields.io/badge/Google%20Scholar-View%20Citations-4285F4?logo=googlescholar&logoColor=white"
+                alt="View on Google Scholar">
+            </a>
+          </div>
+        </li>
+      </ul>
     </section>
-    -->
-    <!-- end of pricing section -->
 
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to collaborate?</h6>
-                    <p class="m-0 text-light">Feel free to reach out for research or industry opportunities</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded" onclick="location.href='#contact'">Contact
-                        Me</button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
+    <!-- Research & Experience Section -->
+    <section id="research" class="section-content">
+      <h2>Research & Industry Experience</h2>
 
-    <!-- testimonial section -->
-    <!--
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                           
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                        
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </section> 
-    -->
-    <!-- end of testimonial section -->
-
-    <!-- blog section -->
-    <!--
-    <section class="section" id="blog">
-        <div class="container text-center">
-            <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6>
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-1.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
-
-                    <p class="blog-card-caption">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                        <a href="#"><i class="ti-comment"></i> 123</a>
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
-
-                    <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
-                    <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                    <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div>
-
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-2.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
-
-                    <p class="blog-card-caption">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                        <a href="#"><i class="ti-comment"></i> 264</a>
-                    </p>
-                    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                    <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div>
-
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Software Developer</div>
+          <div class="exp-date">Dec 2025 – Present</div>
         </div>
+        <div class="exp-company">Scient Analytics Inc (Contract) | Greater Sudbury, Canada</div>
+        <ul class="exp-details">
+          <li><strong>Software Development & Hardware Integration:</strong> Developed high-performance desktop
+            applications using C++ for industrial inspection and metrology systems.</li>
+          <li>Architected and implemented modular sensor drivers, enabling seamless integration of various optical
+            sensors and line-scan cameras into the main application.</li>
+          <li>Refactored and optimized legacy codebases to ensure compatibility across different hardware generations
+            and SDK versions, improving system flexibility.</li>
+          <li>Implemented multi-threaded data acquisition pipelines, ensuring real-time performance and reduced latency
+            during high-speed scanning.</li>
+          <li><strong>Electrical Engineering & Motion Control:</strong> Designed electrical schematics for complex
+            instrument setups, integrating optical sensors, lighting systems, and motion controllers (KFlop).</li>
+          <li>Programmed and tuned KFlop motion controllers for precise synchronization of multi-axis scanning systems
+            with data acquisition triggers.</li>
+          <li>Bridged the gap between hardware and software teams by troubleshooting electrical integration issues and
+            developing software diagnostics for hardware verification.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Senior Software Engineer – Mobile & Embedded Systems</div>
+          <div class="exp-date">Jun 2024 – Dec 2025</div>
+        </div>
+        <div class="exp-company">GravityRV | Ontario, Canada</div>
+        <ul class="exp-details">
+          <li>Building Android (Jetpack Compose) and iOS (SwiftUI) apps for real-time BLE control of RV systems (jacks,
+            leveling, diagnostics).</li>
+          <li>Developing ESP32 firmware C++ and PCB designs for next-gen control units, integrating GPS and IMU sensors
+            for autonomous “Follow-Me” and self-leveling.</li>
+          <li>Implementing CI/CD and OTA update pipelines to ship firmware and mobile releases reliably to field
+            devices.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Software Engineer – GeoAI Platform (React, Azure)</div>
+          <div class="exp-date">Sep 2023 – Jun 2024</div>
+        </div>
+        <div class="exp-company">OrbixHub (Contract) | Kitchener, Canada</div>
+        <ul class="exp-details">
+          <li>Built the MVP for a GeoAI farm management platform using React 18, TypeScript, and Azure, providing
+            interactive field and NDVI exploration for early users.</li>
+          <li>Integrated Azure Maps for geospatial layers (field boundaries, raster overlays) and designed the initial
+            data model in Azure Cosmos DB for time-series vegetation indices.</li>
+          <li>Containerized the web application and supporting services (Docker) and deployed them on Azure (App
+            Services / container-based workflows), wiring CI/CD pipelines for repeatable, low-friction releases.</li>
+          <li>Implemented data ingestion and preprocessing pipelines to pull satellite and agronomic data from external
+            APIs / storage, clean and resample it, and aggregate features into model-ready datasets for downstream GeoAI
+            models.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">PhD Researcher – Deep Learning & Remote Sensing</div>
+          <div class="exp-date">Jan 2019 – Sep 2023</div>
+        </div>
+        <div class="exp-company">Shahid Bahonar University of Kerman | Kerman, Iran</div>
+        <ul class="exp-details">
+          <li>Led the U.S. Soybean Crop-Yield Prediction Project, processing over 33 million ha of multispectral
+            satellite imagery and developing deep-learning models that improved yield-prediction accuracy by 20%.</li>
+          <li>Architected end-to-end pipelines for crop classification and yield estimation, integrating MLOps for
+            reproducibility and scalability across multi-temporal datasets.</li>
+          <li>Implemented advanced architectures—3D CNNs, Attention-based ConvLSTMs, and Transformers—for
+            spatio-temporal feature extraction from multi-source imagery.</li>
+          <li>Leveraged PyTorch Lightning and distributed GPU training to accelerate convergence by 50% on large-scale
+            experiments.</li>
+          <li>Deployed and monitored production-level AI pipelines on high-performance local servers with automated
+            execution, version control, and retraining workflows. Created interactive visual dashboards (Matplotlib /
+            Seaborn / Plotly) to communicate model metrics and spatial insights.</li>
+          <li>Published and co-authored papers in IEEE J-STARS and the International Journal of Digital Earth,
+            highlighting innovations in 3D CNNs, Attention ConvLSTMs, and Transformer architectures for remote-sensing
+            applications.</li>
+          <li>Built automated Python pipelines for DESIS hyperspectral data extraction, cleaning, and feature
+            engineering—cutting data-prep time by 60%. Demonstrated 15% accuracy gain in crop-classification tasks.</li>
+          <li>Collaborated with agronomists and data scientists to translate AI models into decision-support tools for
+            sustainable agriculture, while mentoring junior researchers on reproducible ML practices.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Visiting AI Researcher</div>
+          <div class="exp-date">Jul 2022 – Nov 2022</div>
+        </div>
+        <div class="exp-company">University of Szeged | Hungary</div>
+        <ul class="exp-details">
+          <li>Collaborated on classifying complex 350-band hyperspectral data using dimensionality reduction mapping
+            (PCA) and attention-based CNNs on HPC cloud infrastructures.</li>
+        </ul>
+      </div>
+
     </section>
-    -->
-    <!-- end of blog section -->
 
-    <!-- contact section -->
-    <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" requried>
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control"
-                            placeholder="Write Something"></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
-                    </div>
-                </div>
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
+    <!-- Projects Section -->
+    <section id="projects" class="section-content">
+      <h2>Key Projects</h2>
 
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="http://www.devcrud.com">DevCRUD</a>
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
-            </div>
-        </footer>
-    </div> <!-- end of page footer -->
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Vision Transformer for Spatial-Temporal Reasoning</div>
+          <div class="exp-date"><a href="https://github.com/iimahdii/Crop-Yield-Prediction-with-Vision-Transformer"
+              target="_blank"><i class="fab fa-github"></i> View Repository</a></div>
+        </div>
+        <ul class="exp-details" style="margin-top: 5px;">
+          <li>Developed a novel ConvLSTM-ViT hybrid architecture combining spatial attention with temporal dynamics for
+            understanding visual sequences across multiple modalities.</li>
+          <li>Achieved significant performance improvements over traditional LSTM baselines through innovative
+            attention-based feature aggregation.</li>
+        </ul>
+      </div>
 
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Wavelet-Attention CNN for Hyperspectral Classification</div>
+          <div class="exp-date"><a
+              href="https://github.com/iimahdii/Wavelet-based-Convolutional-Neural-Network-Wavelet-CNN-framework-for-the-classification-of-Hypersp"
+              target="_blank"><i class="fab fa-github"></i> View Repository</a></div>
+        </div>
+        <ul class="exp-details" style="margin-top: 5px;">
+          <li>Built wavelet-integrated attention networks for high-dimensional image classification with 350+ spectral
+            bands.</li>
+          <li>Implemented efficient dimensionality reduction while preserving discriminative spatial-spectral features.
+          </li>
+        </ul>
+      </div>
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Voyis Imaging System Integration (C++ / CMake)</div>
+          <div class="exp-date"><a href="https://github.com/iimahdii/voyis-imaging-system" target="_blank"><i
+                class="fab fa-github"></i> View Repository</a></div>
+        </div>
+        <ul class="exp-details" style="margin-top: 5px;">
+          <li>Developed modular system integrations and build configurations for advanced imaging sensors using modern
+            C++ and CMake.</li>
+        </ul>
+      </div>
 
-    <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Yield Stability Analysis & Data Analytics</div>
+          <div class="exp-date"><a href="https://github.com/iimahdii/Yield-stability-analysis" target="_blank"><i
+                class="fab fa-github"></i> View Repository</a></div>
+        </div>
+        <ul class="exp-details" style="margin-top: 5px;">
+          <li>Implemented analytical pipelines to reveal sources of large-scale environmental changes (nitrogen loss)
+            from the US Midwest.</li>
+        </ul>
+      </div>
 
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-title">Deep Learning for Crop Yield Forecasting</div>
+          <div class="exp-date"><a href="https://github.com/iimahdii/Crop-Yield-Forecasting-Deep-Learning"
+              target="_blank"><i class="fab fa-github"></i> View Repository</a></div>
+        </div>
+        <ul class="exp-details" style="margin-top: 5px;">
+          <li>Exploratory machine learning implementations and baseline deep learning models for agricultural yield
+            predictions.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Script for smooth scrolling and active links -->
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
